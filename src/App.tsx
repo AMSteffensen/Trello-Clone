@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Column } from './column';
-import { Card } from './card';
+import { Column } from './Column';
+import { Card } from './Card';
 import { AppContainer } from './styles';
 
 export const App = () => {

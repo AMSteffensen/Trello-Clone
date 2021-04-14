@@ -1,8 +1,8 @@
-import { FC } from './react'
+import { FC } from 'react'
 import { ColumnContainer, ColumnTitle } from './styles'
 
-types ColumnProps = {
-    text: string
+type ColumnProps = {
+    text?: string
 }
 
 export const Column: FC<ColumnProps> = ({ text, children }) => {
