@@ -2,11 +2,13 @@ import { FC } from 'react';
 import { Column } from './Column';
 import { Card } from './Card';
 import { AppContainer } from './styles';
+import { AddNewItem } from "./AddNewItem"
+
 
 export const App = () => {
   return (
   <AppContainer>
-    Hello
+     <AddNewItem toggleButtonText="+ Add another list" onAdd={console.log} />
   </AppContainer>
   );
 }
